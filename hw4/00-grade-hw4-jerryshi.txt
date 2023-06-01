@@ -1,0 +1,21 @@
+jerryshi hw4 grade: 42/43
+
+Graded files from svn revision 52
+
+--------------------------------------
+Question 1 points and comments: 22/23
+
+For last part, should be miss not hit.
+
+Graded by: Anjali Pullabhotla (apullabhotla)
+--------------------------------------
+
+Question 2 points and comments: 20/20
+
+All correct. Great job! 
+
+Graded by: Ivan Galakhov (igalakhov)
+--------------------------------------
+
+If you believe there is an error in how you were graded, you have a week,
+starting from when this grade was returned, to notify us via email.

@@ -1,0 +1,19 @@
+jerryshi hw7 grade: 40/40
+
+Graded files from svn revision 74
+
+--------------------------------------
+Question 1 points and comments: 20/20
+
+Nice work!
+
+Graded by: Anjali Pullabhotla (apullabhotla)
+--------------------------------------
+
+Question 2 points and comments: 20/20
+
+Graded by: Mingyan Wang (mingyan)
+--------------------------------------
+
+If you believe there is an error in how you were graded, you have a week,
+starting from when this grade was returned, to notify us via email.

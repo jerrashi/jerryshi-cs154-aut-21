@@ -1,0 +1,23 @@
+jerryshi hw2 grade: 30/34
+
+Graded files from svn revision 38
+
+--------------------------------------
+Question 1 points and comments: 11/14
+
+Endianness must be mentioned as reason for value being unknown in part (b).
+Value is not unknown in part (c), 561 without a $ evaluates to 0x230. The value at this address is 0x54.
+For part (f), $251 = 0xFB not 0xFA. 
+
+Graded by: Anjali Pullabhotla (apullabhotla)
+--------------------------------------
+
+Question 2 points and comments: 19/20
+
+1E. Correct value is 0xFFFFFFFFFFFFFFFE (-1)
+
+Graded by: Ivan Galakhov (igalakhov)
+--------------------------------------
+
+If you believe there is an error in how you were graded, you have a week,
+starting from when this grade was returned, to notify us via email.

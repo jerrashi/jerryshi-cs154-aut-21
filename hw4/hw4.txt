@@ -1,0 +1,26 @@
+1.
+A)
+ttttttttssbb (8 tag bits, 2 sign bits, 2 offset bits)
+B)
+Hit A3
+Hit 5A
+Hit 57
+Hit F1
+Miss Unknown
+Hit n/a
+Hit n/a
+Miss unknown
+Hit F1
+
+2.
+A) Miss Rate is 100%. x[0][i] & x[1][i] will point to same block, causing
+ a conflict miss for all queries.
+B) Miss Rate is 25%. Now the array is large enough to avoid conflict misses.
+ We will still have cold/compulsory misses for the first hit on a block.
+ Each block is four words, so the miss rate will be (1 - hit rate) = 1 - 3/4 = 1/4.
+C) Now that there are two blocks per set, we no longer have conflict misses.
+ Thus, again the miss rate is (1 - hit rate) = 1 - 3/4 = 1/4. 
+D) No, the larger cache size makes no difference because all the misses are cold misses.
+ Cold misses are compulsory in the beginning to load in data.
+E) Yes, the larger block size decreaes the miss rate from cold misses since more words
+ can be stored in each block.

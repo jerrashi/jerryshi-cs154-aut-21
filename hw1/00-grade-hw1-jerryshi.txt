@@ -1,0 +1,26 @@
+jerryshi hw1 grade: 18/20
+
+Graded files from svn revision 14
+
+--------------------------------------
+Question 1 points and comments: 10/10
+
+Nice work!
+
+Graded by: Anjali Pullabhotla (apullabhotla)
+--------------------------------------
+
+Question 2 points and comments: 8/10
+
+Your part E needs twice as many 5s to be correct; it should be
+!!(x & 0x55555555)
+
+Your part F checks whether x has any 0s anywhere in all the nybbles except for the least significant one.
+
+ 
+
+Graded by: Henry Hale (henryh)
+--------------------------------------
+
+If you believe there is an error in how you were graded, you have a week,
+starting from when this grade was returned, to notify us via email.

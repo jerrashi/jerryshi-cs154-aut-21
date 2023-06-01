@@ -1,0 +1,9 @@
+1. Exception Table
+0 | 0xC0015200
+
+2. Program pointer %eip points to 0x08031000.
+In CPU, ALU circuit recognizes %ebx == 0 and fetches exc[0].
+Exc[0] is address 0xC0015200, which is where the first
+  instruction of dividebyZero is located in memory.
+CPU executes the instruction at 0xC0015200, which is the 
+  first instruction of dividebyZero.

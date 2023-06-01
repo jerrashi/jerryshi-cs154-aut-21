@@ -1,0 +1,25 @@
+Jerry Shi
+CMSC 154 Autumn
+
+Problem 1:
+   Value    Mode
+A. 0x09     Indirect
+B. Unknown  Base + Displacement (value at address 0x224 unknown)
+C. Unknown  Absolute, Decimal to Hex Conversion (value at 0x54 unknown)
+D. 0xBC     Indexed
+E. 0x42     Scaled Indexed
+F. 0xFA     Immediate, Decimal to Hex Conversion
+G. 0x42     Scaled Indexed
+
+Problem 2:
+   Dest     Value
+A. %rsi     0x9
+B. %rbx     0x0 (xorq of any value by itself is 0)
+C. 0x210    0xAA
+D. %rdi     0x6F
+E. %rdx     0x0
+F. 0x220    0x900
+G. %rcx     0x120
+H. 0x218    0xBC00
+I. %rax     0x219
+J. 0x228    0x21

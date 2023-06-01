@@ -1,0 +1,12 @@
+jerryshi exam1 grade: 102/200
+
+  Question 1: 40 / 80
+  Question 2: 16 / 16
+  Question 3: 0 / 32
+  Question 4: 0 / 16
+  Question 5: 18 / 28
+  Question 6: 28 / 28
+
+Questions were graded by TAs and professors. If you believe a question
+was graded incorrectly, please drop by the exam office hour.
+

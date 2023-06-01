@@ -1,0 +1,20 @@
+Part 1:
+A) Yes, P1 will be located in address range 0-2
+B) Yes, P2 will be located in address range 5-7
+C) No, there is no space for P3
+D) Internal Fragmentation:
+P1 - 2MB of internal fragmentation (address range 1-2)
+P2 - 1MB of internal fragmentation (address 7)
+P3 - does not run
+Total 3MB of internal fragmentation
+E) External Fragmentation:
+3MB - address locations/range 3 and 8-9
+
+Part 2:
+A. Memory Access Conversions:
+Segment bit width of 1, Offset bit width of 7
+0xE5 = 1 | 1100101; 0x36 + 0x65 = 0x9B SUCCESS
+0x4A = 0 | 1001010; 0xA8 + 0x4A = 0xF2 ERROR
+0x37 = 0 | 0110111; 0xA8 + 0x37 = 0xDF SUCCESS
+
+B. 2^7 bytes

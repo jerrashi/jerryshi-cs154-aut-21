@@ -1,0 +1,23 @@
+/* Jerry Shi, jerryshi */
+/* CS154, Autumn 2021 */
+/* hw 1 */
+
+Question 1)
+int foo = 0x5
+char endian = !((unsigned char*)&foo)[0]
+
+I chose the hex value of 5 since in binary this is 0101. This code works because
+first statement in the switch will run when endian is unequal to 0. Let's take
+the example of a big endian system. The bits are stored such that the least
+significant digit/bit has the largest memory address. endian is set
+to the OPPOSITE of the first bit in the casted array of foo (thanks to the !
+operator), which would be 0's. Thus, the first statement of the switch is run
+and big endian is correctly printed. The opposite happens for little endian.
+
+Question 2)
+A. !!x
+B. !!(~x)
+C. !!(x & 0xFF)
+D. !!(~x & 0xFF)
+E. !!(x & 0x5555)
+F. !!(X & ~0xF)

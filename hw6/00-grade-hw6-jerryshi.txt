@@ -1,0 +1,14 @@
+jerryshi hw6 grade: 19.5/20
+
+Graded files from svn revision 64
+
+--------------------------------------
+Question 1 points and comments: 19.5/20
+
+Value of part (c) (5) of forkret should be 102.
+
+Graded by: Anjali Pullabhotla (apullabhotla)
+--------------------------------------
+
+If you believe there is an error in how you were graded, you have a week,
+starting from when this grade was returned, to notify us via email.

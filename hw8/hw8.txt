@@ -1,0 +1,21 @@
+PART 1:
+A. A memory leak of 5,000 bytes is created. For every client (100 in this case), the
+   parent process will open a file descriptor table but not close it after the
+   client is serviced.
+B. No memory leak. The parent process points to the same listenfd table each time.
+   There is a slight performance impact since the child process doesn't close the
+   pointer to listenfd in the fd table.
+
+PART 2:
+no  yes no
+no  no  yes
+yes yes yes (because address of i is passed)
+yes yes yes
+no  yes no
+no  no  yes
+
+PART 3:
+A. T1 = A,C A,B A,D
+   T2 = C,A A,B C,B
+B. yes, no
+C. yes

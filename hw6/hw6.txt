@@ -1,0 +1,32 @@
+Part A:
+1. P - 16, forkret = 0
+2. P - 23, forkret = 102
+3. C - 19, forkret = 0
+4. P - 8, forkret = 102
+5. C - 8, forkret = 0
+6. C - 10, forkret = 0
+7. P - 26, forkret = 102
+
+Part B:
+1. P - 16, forkret = 0
+2. P - 23, forkret = 102
+3. C - 19, forkret = 0
+4. C - 8, forkret = 0
+5. C - 10, forkret = 0
+6. P - 26, forkret = 102
+Lines 20 and 24 are in a race. Line 24 runs first, leading to this output.
+
+Part C:
+1. P - 16, forkret = 0
+2. P - 23, forkret = 102
+3. C - 8, forkret = 0
+4. C - 10, forkret = 0
+5. P - 26, forkret = 0
+Lines 24 and 19 are in a race. Line 24 runs first, leading to this output.
+
+Part D:
+1. P - 16, forkret = 0
+2. C - 19, forkret = 0
+3. P - 8, forkret = 0
+4. P - 10, forkret = 0
+Parent process is interrupted in the middle of line 18 after fork returns, and lines 8-11 (signal handler) run before forkret is assigned a value.

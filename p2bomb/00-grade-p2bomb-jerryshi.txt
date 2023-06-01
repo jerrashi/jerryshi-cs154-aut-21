@@ -1,0 +1,7 @@
+jerryshi p2bomb grade: 58/60
+
+bomb18:
+  Phases Defused:   6
+  Explosions:       5
+  Bomb Score:       58
+
